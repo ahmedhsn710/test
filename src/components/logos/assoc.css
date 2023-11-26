@@ -1,0 +1,12 @@
+.owl-stage{
+    display: flex;
+    align-items: center;
+    margin: auto
+}
+
+@media screen and (max-width: 768px) {
+    .owl-stage {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

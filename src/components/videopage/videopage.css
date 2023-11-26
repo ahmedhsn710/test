@@ -1,0 +1,68 @@
+.video-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: auto auto;
+  }
+  
+  .video {
+    display: flex;
+  }
+  
+
+  .video-info {
+    text-align: center;
+    padding: 20px;
+  }
+
+  h1 {
+    font-family: 'Lato';
+    font-weight: 500;
+    color: #414042;
+  }
+  
+  ul p{
+    text-align: center;
+    padding: 5px;
+  }
+  
+  li p{
+    margin-bottom: 10px;
+    font-family: 'Lato';
+  }
+
+  p {
+    min-width: 200px;
+    width: 90%;
+    font-size: 1.5rem;
+  }
+
+  iframe {
+    width: 500px;
+    height: 400px;
+  }
+  
+  @media screen and (max-width: 868px) {
+    .video-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        max-width: 50%;
+    }
+
+    p {
+      font-size: 20px;
+    }
+
+    iframe {
+      width: 100%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+  iframe{
+      width: 400px;
+      height: 300px;
+  }
+
+}
