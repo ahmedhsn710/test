@@ -8,7 +8,7 @@ const Solution = () => {
             <Heading id='products' title="Products" color='white' />
             <div className="video-container">
                 <div className="video-info">
-                    <p>The NUST InfoBot is a chatbot designed to provide assistance by offering information on NUST policies outlined in both the undergraduate and postgraduate handbooks.</p>
+                    <p>The NUST InfoBot is a chatbot designed to provide assistance by offering informa.</p>
 
                 </div>
                 <div className="video-wrapper">
